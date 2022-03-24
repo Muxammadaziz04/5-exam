@@ -3,7 +3,7 @@ import Home from "./Views/Home/Home";
 import Layout from "./Components/Layout/Layout";
 import Login from "./Views/Login/Login";
 import Movies from "./Views/movies/Movies";
-import LoginProvider, { LoginContext } from "./Provider/LoginProvider";
+import LoginProvider from "./Provider/LoginProvider";
 import MovieProvider from "./Provider/MovieProvider";
 import Search from "./Views/Search/Search";
 import Categories from "./Views/Categories/Categories";

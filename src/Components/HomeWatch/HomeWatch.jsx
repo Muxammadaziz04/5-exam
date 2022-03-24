@@ -15,7 +15,7 @@ const HomeWatch = ({ arr }) => {
             <div className="container">
                 <div className="wraper">
                     <Link to="movies" className="section__film">
-                        <img className='section__film__bg' src={arr[5].Poster} />
+                        <img className='section__film__bg' src={arr[5].Poster} alt="img"/>
                         <img className='section__film__icon' src={PlayIcon} alt="img" />
                         <h3 className="section__film__title">{arr[5].Title}</h3>
                         <p className='section__film__desc'>Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>

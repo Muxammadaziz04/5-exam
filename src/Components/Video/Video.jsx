@@ -8,7 +8,6 @@ import { VolumeDown, VolumeUp } from '@mui/icons-material';
 import fullScreen from "../../Assets/svg/iconmonstr-fullscreen-7.svg";
 
 const Video = () => {
-    let myTimeout;
     const videoRef = useRef()
     const blockRef = useRef()
     const controlsRef = useRef()

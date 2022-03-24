@@ -15,7 +15,7 @@ const Movies = () => {
     return (
         <>
             <Singleheader />
-            <VideoWrapper arr={movies.Search.slice(0, 5)} title="Recomended" />
+            <VideoWrapper arr={movies.Search.slice(0, 5)} title="Last watch" />
             <VideoWrapper arr={movies.Search.slice(5, 10)} title="Top Movies" />
             <VideoWrapper arr={movies.Search.slice(0, 5)} title="Top TV Show" />
         </>

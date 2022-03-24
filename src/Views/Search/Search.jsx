@@ -23,12 +23,6 @@ const Search = () => {
         getMovies()
     }, [page, inputValue]);
 
-    if (!movies.Search) {
-        return <div className="container">
-            <h2 style={{ margin: "60px 0 160px" }}>Movies not found</h2>
-        </div>
-    }
-
 
     return (
         <>

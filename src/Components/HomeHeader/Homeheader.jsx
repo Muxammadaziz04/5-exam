@@ -6,7 +6,7 @@ import './HomeHeader.scss'
 const Homeheader = ({ arr }) => {
     const imgRef = useRef()
 
-    if (!movies.Search) {
+    if (!arr) {
         return <div className="container">
             <h2 style={{ margin: "60px 0 160px" }}>Movies not found</h2>
         </div>
@@ -29,7 +29,7 @@ const Homeheader = ({ arr }) => {
                     </div>
                 </div>
 
-                <div className="homeHeader__trailrm -r .giter">
+                <div className="homeHeader__trailer">
                     <h4>Trailers</h4>
                     <div className="homeHeader__cards">
                         <div className="card" onClick={() => imgRef.current.setAttribute("src", arr[1].Poster)}>
